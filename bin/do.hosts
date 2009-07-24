@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+use Proc::Parallel::HostsCommand;
+
+Proc::Parallel::HostsCommand::run(@ARGV);
+
+=head1 LICENSE
+
+This package may be used and redistributed under the terms of either
+the Artistic 2.0 or LGPL 2.1 license.
+

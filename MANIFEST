@@ -1,0 +1,11 @@
+bin/do.hosts
+bin/rkill
+lib/Proc/Parallel.pm
+lib/Proc/Parallel/HostsCommand.pm
+lib/Proc/Parallel/RemoteKiller.pm
+lib/Proc/Parallel/Unreliable.pm
+lib/RPC/ToWorker.pm
+lib/RPC/ToWorker/Callback.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml                                 Module meta-data (added by MakeMaker)
