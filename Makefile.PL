@@ -7,6 +7,7 @@ WriteMakefile(
 	'ABSTRACT' => 'Stream from multiple commands at once library and command',
 	'AUTHOR'   => 'David Muir Sharnoff <muir@idiom.org>',
 	'dist' => { COMPRESS=>"gzip", SUFFIX=>"gz" },
+	'EXE_FILES' => [ 'bin/do.hosts', 'bin/rkill' ],
 	'PREREQ_PM'	=> {
 		'IO::Event'			=> 0.704,
 		'File::Slurp::Remote'		=> 0,

@@ -10,7 +10,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(start_command finish_commands);
-our $VERSION = 0.3;
+our $VERSION = 0.4;
 
 my %running;
 
